@@ -25,7 +25,7 @@ controller.hears(['hello', 'hi'], 'message_received', function(bot, message) {
 //added to stop the debug tick remarks in console
 controller.on('tick', function(bot, event) {});
 
-controller.setupWebserver(process.env.port || 7000, function(err, webserver) {
+controller.setupWebserver(process.env.PORT || 7000, function(err, webserver) {
     controller.createWebhookEndpoints(webserver, bot, function() {
         console.log('ONLINE!');
 
