@@ -1,5 +1,5 @@
-var page_token = ("EAAIJdgZBdh0wBAHdxOmbqppAA0DI7qNAp0BBbfPOz7mzQABkGyZBMle2ZBPgaaSx76lCsF0iE5qF72Iv5N3TVK44s3wVHTNhcOiKQlOaoZBp9P9mpmX1EnGcfzspQ5TZC5ZBZCPQ81ZBnzbQP9PoFbiEiHg5i6Jgbc0PtLRcjgeKkgZDZD");
-var verify_token = ("kameron");
+var page_token = ("EAAX3bno16VYBAIYpqZCnnunwe7leFBF4pqdj9NdZAafgVogmtX0cvFbH68gZCp7vw0j02ofGqZC4W1UiVICZBhGpuDssEmIUG7VqVMiUNPF8zcnp6OMywnuPI73imMVa9Cts4Xk2xm5ZADovi2y5ntLe7u3fqmZBV2bYrUC7TOZCBwZDZD");
+var verify_token = ("SzWo8tO6pN");
 var bodyParser = require('body-parser');
 var express = require('express');
 var app = express();
@@ -31,4 +31,4 @@ controller.setupWebserver(process.env.port || 7000, function(err, webserver) {
 
     });
 });
-0
+

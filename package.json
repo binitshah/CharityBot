@@ -31,7 +31,8 @@
     },
     "devDependencies": {},
     "scripts": {
-        "test": "mocha"
+        "test": "mocha",
+        "start": "node facebook_bot.js"
     },
     "repository": {
         "type": "git",
